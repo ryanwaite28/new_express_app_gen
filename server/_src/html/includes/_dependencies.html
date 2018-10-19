@@ -2,10 +2,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8">
 
+<link rel="stylesheet" href="/css/materialize.min.css">
 <link rel="stylesheet" href="/css/icon.css">
 <link rel="stylesheet" href="/css/styles.min.css">
 
 <script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/materialize.js"></script>
 
 <script src="/js/utils/tools.min.js"></script>
 <script src="/js/utils/http_request.min.js"></script>
+
+
+
+<script src="/bin/js/socket.io.js"></script>
+<script>
+  $(document).ready(function(){
+    let socket = io('http://localhost');
+    socket.on('connect', function(e){
+      console.log('new connection', e);
+    });
+
+    socket.on('disconnect', function(){
+      console.log('disconnected...');
+    });
+  });
+</script>
