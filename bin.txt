@@ -1,0 +1,20 @@
+things to install (new projects)
+---
+npm install -g gulp-cli
+
+yarn add @google-cloud/storage bcrypt-nodejs client-sessions cors express express-fileupload firebase firebase-admin
+yarn add nodemon nunjucks pg pg-hstore sequelize sqlite sqlite3 validator emailjs multer body-parser
+
+yarn add gulp gulp-less gulp-babel gulp-concat gulp-uglify gulp-uglifyes uglify-js gulp-rename gulp-clean-css gulp-util gulp-htmlmin del
+yarn add babel-core babel-loader babel-preset-es2015
+
+yarn add @babel/core @babel/preset-env
+
+--- all ---
+
+yarn add @google-cloud/storage concurrently bcrypt-nodejs socket.io client-sessions cors express express-fileupload express-device firebase firebase-admin nodemon nunjucks pg pg-hstore sequelize sqlite sqlite3 validator emailjs multer body-parser gulp gulp-less gulp-babel gulp-concat gulp-uglify gulp-uglifyes uglify-js gulp-rename gulp-clean-css gulp-util gulp-htmlmin gulp-wrap del babel-core babel-loader babel-preset-es2015
+
+
+
+--- misc ---
+# my-favors-firebase-adminsdk-qod7a-d7ee0d5684
