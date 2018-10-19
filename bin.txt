@@ -17,4 +17,3 @@ yarn add @google-cloud/storage concurrently bcrypt-nodejs socket.io client-sessi
 
 
 --- misc ---
-# my-favors-firebase-adminsdk-qod7a-d7ee0d5684
